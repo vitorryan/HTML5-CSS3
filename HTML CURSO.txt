@@ -1,0 +1,79 @@
+UTF-8?
+
+TLD? existem dois tipos de TLD. endereços com .com/.net/.info é um GTLD (Generico Top-Level Domain) e o CCTLD (Country Code Top-Level Domain) seria o codigo do páis .BR/.USA/.UK/.AR
+
+
+URL é composta por Sub-dominio-Dominio-TLD-caminho juntando tudo isso torna-se a URL
+URL é um endereço e se divide por partes exemplo: www.github.com/gustavoguanabara
+github seria o DOMINIO, o .com/.net... é o TLD.
+WWW é um Sub-dominio e a barra exemplo: /gustavoguanabara é o caminho 
+
+HTTPS é um protocolo 
+
+
+========HTML e CSS não são linguagem de programção e sim de desenvolvimento=======
+
+HTML-HyperText (Hiper texto)               CSS-Cascading (Cascata)
+     Markup    (Marcas)                        Style (Estilo)
+     Language  (linguagem)                     Sheets (Folhas)
+  (Linguagem de Marcação HiperTexto)      (Folhas de Estilo em Cascata)
+
+HTML é focada em CONTEÚDO (texto,imagem,video,tabela)
+
+CSS é focado em DESIGN (cores,sobras,tamanhos,posicionamento)
+
+
+
+
+
+O HTML vai funcionar por marcações especificas, que são chamadas de TAGS. Uma TAG é um conjunto de palavras dentro de um sinal, Exemplo: <h1>Exemplo de Titulo/h1> 
+
+<h1> Usado para TITULOS
+<p>  Usado para PARÁGRAFOS
+<img src="foto.png" alt="exemplo de foto"> Usado para colocar uma foto
+
+A TAG IMG não tem fechamento com barra. o <img Abertura de tag 
+                                          src= ALT= Parâmetro 
+                                          "foto.png"> "exemplo de foto" Valor  
+
+
+
+
+Todo documento HTML tem uma estrutura básica, um esqueleto
+
+<!DOCTYPE html>
+<html lang="pt-br>
+  <head>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+     coment="width=device=width,
+     initial-scale=1.0">
+     <title>Document</title>
+
+  
+  </head>
+  <body>
+    <h1>Olá, Mundo!</h1>
+
+
+  </body>
+
+</html>  
+
+
+Para carregar imagem no HTML se usa TAG img <img src"Nome do arquivo" alt="Explicação">     Para adicionar, criar ou converter seu arquivo .ico Existe alguns sites para isso 
+ carregar um favicon pronto existe o site IconArchive.com para buscar alguns exemplos
+ desenhar um favicon tem o site Favicon.cc
+ converter um arquivo .png .jpeg em .icon tem o site Favicon.io     
+
+
+ Quando for se referir um endereço e querer destaca-lo pode-se usar a tag <address>Endereço aqui</address>                                
+
+
+
+
+
+
+
+
+

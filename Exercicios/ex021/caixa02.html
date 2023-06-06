@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px 5px;
+            margin: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px 5px;
+            margin: 10px;
+            border-radius: 3px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+            padding: 1px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            background-color: lightslategray;
+        }
+
+        article > aside {
+            background-color: rgb(128, 128, 128);
+            text-align: right;
+        }
+
+        nav {
+            background-color: lightslategray;
+            padding: 2px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.329);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+            
+        }
+
+        #assuntos > p {
+            font-weight: bolder;
+            text-align: center;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">a</a>
+            <a href="#">b</a>
+            <a href="#">c</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Meu Conteudo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad quaerat animi tempora consectetur, neque qui iure inventore quae asperiores quia labore hic quas error nesciunt, voluptates similique perferendis totam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia ut debitis excepturi earum consequuntur exercitationem ea commodi delectus quidem rem repudiandae, neque, minima eaque aliquam. Incidunt eius molestiae quod.</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Vitor</p>
+    </footer>
+    
+</body>
+</html> 

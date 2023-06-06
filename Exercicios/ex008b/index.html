@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando document.getElementById('teste') é escrito em JavaScrip</p>
+    <p>O comando a cima não é uma fonte mono espaçada. <br>
+        Agora o comando com  a fonte mono espaçada usando a tag <strong>code</strong>, fica assim: <br> <code>document.getElementById('teste')</code> 
+    </p>
+    <p><mark>A fonte mono espaçada é ótima para ler códigos, porém ele não organiza o codigo com indentação.</mark></p>
+
+    <p>
+        
+            <strong>Sem indentação:</strong> <br>
+                <code>
+                    num = int(input('Digite um número'))
+                    if num % 2 == 0:
+                        print(f'0 número {num} é PAR)
+                    else:
+                        print(f'0 número {num} é ÍMPAR)
+                    print('Fim do programa')
+                </code>
+        
+    </p>   
+    
+    <p>
+        
+            <strong>Com indentação:</strong> <br>
+                <pre>
+                    <code>
+                        num = int(input('Digite um número'))
+                        if num % 2 == 0:
+                            print(f'0 número {num} é PAR)
+                        else:
+                            print(f'0 número {num} é ÍMPAR)
+                        print('Fim do programa')
+                    </code>
+                </pre>
+        
+    </p> 
+
+    <p>
+        
+        <strong>Com indentação, sem o espaço:</strong> <br>
+            <pre>
+                <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'0 número {num} é PAR)
+else:
+    print(f'0 número {num} é ÍMPAR)
+print('Fim do programa')
+                </code>
+            </pre>
+    
+</p>  <!--Para fazer isto Segura SHIFT e aperta TAB-->
+
+<h2>Citações Simples</h2> <!--Para fazer uma Citação ("exemplo") usamos a tag Q-->
+
+<p>Como diria um pai de uma amigo: <q>O computador é um burro muito rapido.</q></p>
+
+<H2>Citações Completas</H2>
+<p>Segundo Mauricio Samy Silva, no seu livro Fundamento de HTML5:</p>
+<Blockquote cite="https://www.google.com.br/books/edition/Fundamentos_de_HTML5_e_CSS3/ZyJyDwAAQBAJ?hl=pt-BR&gbpv=1&dq=html5&printsec=frontcover">HTML é a sigla em Inglês para HyperTex Markup Language, que em português, significa linguagem para marcação de hipertexto.</Blockquote> <!--No momento quando passamos o mouse em cima, não irá aparecer nada, mas quando o site estive "on" o google vai entender que ele é uma citação de um livro e vai ficar aquela frase azul que direciona o usuario direto para o livro citado-->
+
+<h2>Apreviações</h2>
+<p>Estou adorando estudar <abbr title="HyperText Markup Language">HTML5</abbr> e <abbr title="Cascating Style Sheets">CSS3</abbr>.</p>
+
+<h2>Texto Invertido</h2>
+<p><bdo dir="rtl">Estou aprendendo algumas peripécias em HTML5.</bdo></p>
+
+     
+     
+
+</body>
+</html>

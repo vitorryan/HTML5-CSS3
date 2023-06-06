@@ -1,0 +1,28 @@
+Para dar estilo ao meu HTML usamos o CSS
+
+Exemplo de HTML: <h1> Hello Word </h1>
+
+Modificando em CSS: h1{
+                       font-family:Arial;
+                       font-size:20pt;
+                       color:blue;
+                       }
+
+
+h1-seletor
+I----Declaração----I
+ font-family:arial; (FONT-FAMILY é Propriedade) (ARIAL; é Valor)
+ font-size:20pt;    (FONT-SIZE 	é Propriedade)  (20pt; é o Valor) 
+ Color:blue;        (COLOR é Propriedade)       (BLUE; é o Valor) 
+
+
+
+
+
+
+
+
+
+
+
+

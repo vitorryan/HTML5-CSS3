@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(253, 147, 135);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 25px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #818080;
+}
+
+.btn-entrar {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(243, 240, 50, 0.699);
+    color: black;
+    margin-bottom: 22px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Castoro', serif;
+font-family: 'Castoro Titling', cursive;
+font-family: 'Fredericka the Great', cursive;
+}
+
+#sn{
+    text-decoration: none;
+    margin-top: 10px;
+    color: rgb(63, 63, 161);
+}
+
+#sn:hover {
+    text-decoration: underline;
+}
+
+#cd{
+    text-decoration: none;
+    margin-left: 274px;
+    margin-top: 10px;
+    color: rgb(63, 63, 161);
+    
+}
+
+#cd:hover {
+    text-decoration: underline;
+}
+
+a {
+    margin-left: 18px;
+}
+
+.login {
+    font-family: 'Castoro', serif;
+font-family: 'Castoro Titling', cursive;
+font-weight: bolder;
+
+}
