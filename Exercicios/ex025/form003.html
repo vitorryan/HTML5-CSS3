@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>more input</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <div>
+            <label for="inome">Nomce Completo:</label>
+            <input type="text" name="nome" id="inome" required>
+        </div>
+        <div>
+            <label for="idata">Data de Nascimento:</label>
+            <input type="date" name="data" id="idata">
+        </div>
+        <div>
+            <label for="ienem">Nota do Enem:</label>
+            <input type="number" name="enem" required id="ienem" max="1000" step="0.001">
+        </div>
+        <div>
+            <label for="ihora">Hora da prova:</label>
+            <input type="time" name="hora" id="ihora">
+        </div>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar dados">
+    </form>
+</body>
+</html>
