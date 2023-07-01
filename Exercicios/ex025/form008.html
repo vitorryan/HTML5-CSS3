@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmulário</title>
+</head>
+<body>
+    <h1>Testando Output com java</h1>
+
+    <form action="cadastro.php">
+        <label for="inivel">Nivel de satisfação</label>
+        <input type="range" id="inivel" min="0" max="10" value="3" oninput="onum.innerHTML = Number(inivel.value)">
+        <output id="onum">3</output>
+    </form>
+</body>
+</html>
