@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste Range e Radio</h1>
+
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" minlength="5" maxlength="20">
+            </div>
+
+            <div>
+                <label for="iran">Nivel de satisfação:</label>
+                <input type="range" name="ran" id="iran" min="0" max="100" value="3">
+            </div>
+
+            <div>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="sexo" id="imas"> <label for="imas">Maculino</label>
+                <input type="radio" name="sexo" id="ife"> <label for="ife">Feminino</label>
+                <input type="radio" name="sexo" id="ide" checked> <label for="ide">Outro</label>
+            </div>
+
+            <div>
+                <Label>Atividades:</Label><br>
+                <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label> <br>
+                <input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label> <br>
+                <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label>
+            </div>
+        </fieldset>
+
+        <div>
+            <input type="submit" value="enviar">
+        </div>
+    </form>
+</body>
+</html>

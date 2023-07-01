@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+</head>
+<body>
+    <h1>Testando select, datalist e textarea</h1>
+
+    <form action="cadastro.php">
+
+        <div>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <optgroup label="Região sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="MA">Maranhão</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administração</option>
+                <option value="DEV">Desenvolvedor</option>
+                <option value="AUTO">Autonomo</option>
+                <option value="MT">Motorista</option>
+            </datalist>
+        </div>
+
+        
+            <legend>Observação</legend>
+            <textarea name="obs" id="iobs" cols="30" rows="10"></textarea>
+        
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+
+</body>
+</html>
