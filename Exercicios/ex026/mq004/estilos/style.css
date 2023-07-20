@@ -15,13 +15,14 @@ html {
 }
 
 body {
-    background: black url(../img/fundocel.jpeg);
+    background: black url(../src/img/back-cel.jpg);
     background-size: cover;
     background-position: center center;
 }
 
 main {
     background-color: rgba(255, 255, 255, 0.842);
+    width: 400px;
     margin: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -32,7 +33,7 @@ h1 {
     text-align: center;
     color: white;
     text-shadow: 2px 2px 2px black;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 img {
@@ -40,8 +41,8 @@ img {
     margin: auto;
 }
 
-img #phone {display: none;}
-img #tablet {display: none;}
-img #print {display: none;}
-img #pc {display: none;}
-img #tv {display: none;}
+img#phone {display: block;}
+img#tablet {display: none;}
+img#print {display: none;}
+img#pc {display: none;}
+img#tv {display: none;}
